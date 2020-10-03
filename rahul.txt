@@ -1,0 +1,41 @@
+INSERT INTO logs values(NEW.block,NEW.houseno,NEW.housetype,NEW.amount,'Inserted',NOW())
+INSERT INTO logs_admin values(NEW.firstname,NEW.lastname,NEW.phonenumber,NEW.dob,NEW.mailid,NEW.adminname,NEW.password,'Inserted',NOW())
+
+
+
+
+
+
+
+
+resident details
+
+BEGIN
+select apartmentname,block,floorno,housetype,parkingtype,electricitybackup,furnishedstate,intercomno from groupsetup where houseno=myhouseno;
+END
+-----------------------------------------------
+admin
+
+BEGIN
+select * from admin where mailid=mymailid;
+END
+-----------------------------------------------
+house
+
+BEGIN
+select * from housedetails where rstatus= myrstaus;
+END
+
+-----------------------------------------------
+maintenance
+
+BEGIN
+select  firstname,lastname,phonenumber,dob,adminname,password from maintenance where houseno= myhouseno;
+END
+-----------------------------------------------
+upayment
+
+BEGIN
+select * from upayment where accountid=myaccountid;
+select * from upayment where date=mydate;
+END

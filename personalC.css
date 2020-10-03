@@ -1,0 +1,125 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:	Century Gothic;
+}
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(reg.jpg);
+	height: 100vh;
+	background-size:cover;
+	background-position: center; 
+}
+
+
+
+h2{
+
+
+
+
+}
+
+
+
+
+.main{
+
+	width: 450px;
+	height: 670px;
+
+	background: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,1));
+	color: #fff;
+	left: 50%;
+	right: 55%;
+
+
+
+text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+ 	
+
+	position: absolute;
+	top: 50%; /*position*/
+	left: 45%;/*postion*/
+	transform: translate(-80%,-50%);  /*postion*/
+
+
+
+}
+
+
+
+
+
+
+/*submit button*/
+ul-1{
+
+
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+
+		position: absolute;
+	top: 87%;		/*submit postion*/
+	left: 42%;
+	transform: translate(-50%,-50%);	
+
+
+} 
+
+ul-1 li{			
+
+	display: inline-block;
+}
+
+
+ul-1 li a{
+
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 2px solid #fff;
+
+	transition:1s ease;
+
+}
+
+ul-1 li a:hover{
+background-color: #fff;
+color: #000;
+
+}
+
+
+
+
+
+
+
+/*BACK  BUTTON*/
+/* for back button*/
+u li-1 a{
+
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 2px solid #fff;
+
+	transition:1s ease;	
+
+	position: absolute;
+	top: 6%;
+	left: 6%;
+	transform: translate(-50%,-50%);
+
+}
+
+
+
+ u li-1 a:hover{
+	background-color:#fff;
+	color:#000;
+}

@@ -1,0 +1,341 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:	Century Gothic;
+}
+
+header{
+background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(s3.jpg);
+height: 100vh;
+background-size:cover;
+background-position: center; 
+
+}
+
+
+
+/*logo*/
+.logo img{
+	float: left;
+	width: 125px;
+	height: auto;
+border-radius: 70%;
+
+	top: 67%;
+	left: 50%;
+	transform: translate(+240%,+10%);
+	
+
+		
+}
+
+
+/*title=====Aapartment*/
+.title{
+	position: absolute;
+	color: #fff;
+	background: #000;
+	font-size:16px;
+	padding: 5px 20px;
+	border: 2px solid #fff;
+	top: 15%;
+	left: 46%;
+	transform: translate(-50%,-50%);
+}
+
+
+/*login*/
+.login{
+width: 320px;
+height: 320px;
+background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+
+color: #fff;
+left: 50%;
+right: 55%;
+
+
+
+text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+ 	
+
+	position: absolute;
+	top: 50%; /*position*/
+	left: 45%;/*postion*/
+	transform: translate(-50%,-50%);
+
+}
+
+
+
+.login input{
+
+width: 200px;
+height: 30px;
+
+}
+
+
+
+.Sign_in{
+	
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	
+	transition:1s ease;
+
+	position: absolute;
+	top: 53%;
+	left: 42%;
+	transform: translate(-50%,-50%);
+
+
+}
+
+
+ul{
+
+
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+
+} 
+
+ul li{			/*li=link*/
+
+	display: inline-block;
+}
+
+
+ul li a{
+
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 2px solid #fff;
+
+	transition:1s ease;
+
+}
+
+ul li a:hover{
+background-color: #fff;
+color: #000;
+
+}
+
+
+
+
+
+
+.forgot{
+
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	
+	transition:1s ease;
+
+	position: absolute;
+	top: 57%;
+	left: 52%;
+	height: 2px;
+	transform: translate(-50%,-50%);
+}
+
+
+
+
+ul li-1{
+
+	display: inline-block;
+}
+
+
+ul li-1 a{
+
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+
+}
+
+
+
+
+
+
+
+/*register thing*/
+.register{
+
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	
+	transition:1s ease;
+
+	position: absolute;
+	top: 63%;
+	left: 50%;
+	height: 2px;
+	transform: translate(-50%,-50%);
+}
+
+
+
+
+ul li-2{
+
+	display: inline-block;
+}
+
+
+ul li-2 a{
+
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+
+}
+
+
+
+
+
+/*logo login*/
+
+.login1{
+
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	
+	border: 3px solid #fff;
+
+	position: absolute;
+	top: 30%;
+	left: 45%;
+	transform: translate(-50%,-50%);
+}
+
+
+
+
+
+
+
+/*admin */
+.admin{
+	
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	
+	
+
+	position: absolute;
+	top: 53%;
+	left: 42%;
+	transform: translate(-50%,-50%);
+	/*transform: skew(20deg);*/
+
+
+}
+
+
+ul{
+
+
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+
+} 
+
+ul li{			/*li=link*/
+
+	display: inline-block;
+}
+
+
+ul li a{
+
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 2px solid #fff;
+
+	transition:1s ease;
+
+}
+
+ul li a:hover{
+background-color: #fff;
+color: #000;
+
+}
+
+
+
+
+
+
+
+/*admin logo*/
+
+.adminlogo	{
+	
+	float: left;
+	width: 28px;
+	height: auto;
+border-radius: 70%;
+
+	position: absolute;
+	top: 4.5%;
+	left: 92%;
+	transform: translate(-50%,-50%);
+	
+
+
+}
+
+
+
+
+
+.submit{
+	position: absolute;
+	color: #fff;
+	
+	font-size:16px;
+
+	top: 55%;
+	left: 42%;
+	transform: translate(-50%,-50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

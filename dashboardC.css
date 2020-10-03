@@ -1,0 +1,467 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:	Century Gothic;
+}
+
+
+
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(s3.jpg);
+	height: 100vh;
+	background-size:cover;
+	background-position: center; 
+}
+
+
+
+
+
+
+
+/*OPTIONS*/
+/*for home, dashboard, contacts*/
+ul{
+
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+
+	position: absolute;
+	top: 5%;
+	left: 79%;
+	transform: translate(-50%,-50%);
+
+} 
+
+
+ul li
+{
+	display: inline-block;
+}
+
+
+ul li a{
+
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 2px solid #fff;
+
+	transition:1s ease;	
+}
+
+
+
+ ul li a:hover{
+	background-color:#fff;
+	color:#000;
+}
+
+
+
+
+
+/*LOGOUT BUTTON*/
+/* for back button*/
+u li-1 a{
+
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 2px solid #fff;
+
+	transition:1s ease;	
+
+	position: absolute;
+	top: 6%;
+	left: 6%;
+	transform: translate(-50%,-50%);
+
+}
+
+
+
+ u li-1 a:hover{
+	background-color:#fff;
+	color:#000;
+}
+
+
+
+
+
+
+/*for group setup*/
+.dashboard{
+width: 450px;
+height: 600px;
+background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)) ;
+color: #fff;
+left: 50%;
+right: 60%;
+
+
+
+text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+ 	
+
+	position: absolute;
+	top: 50%; /*position*/
+	left: 45%;/*postion*/
+	transform: translate(-50%,-50%);
+
+}
+
+
+/*for group setup*/
+u-1{
+
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+	
+} 
+
+
+u-1 li
+{
+	display: inline-block;
+}
+
+
+
+u-1 li a{
+
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 2px solid #fff;
+	background-color: transparent;
+	transition:1s ease;	
+
+	position: absolute;
+	top: 20%;
+	left: 26%;
+	height: 60px;
+
+	transform: translate(-50%,-50%);
+
+}
+
+ u-1 li a:hover{
+	background-color:#fff;
+	color:#000;
+}
+
+
+
+
+
+
+/*house details*/
+u-2{
+
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+	
+} 
+
+
+u-2 li
+{
+	display: inline-block;
+}
+
+
+u-2 li a{
+
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 2px solid #fff;
+	background-color: transparent;
+	transition:1s ease;	
+
+	position: absolute;
+	top: 40%;
+	left: 26%;
+	height: 60px;
+
+	transform: translate(-50%,-50%);
+
+}
+
+ u-2 li a:hover{
+	background-color:#fff;
+	color:#000;
+}
+
+
+
+
+
+
+/*upload payment*/
+u-3{
+
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+	
+} 
+
+
+u-3 li
+{
+	display: inline-block;
+}
+
+
+u-3 li a{
+
+
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 2px solid #fff;
+	background-color: transparent;
+	transition:1s ease;	
+
+	position: absolute;
+	top: 20%;
+	left: 66%;
+	height: 60px;
+
+	transform: translate(-50%,-50%);
+
+}
+
+ u-3 li a:hover{
+	background-color:#fff;
+	color:#000;
+
+}
+
+
+
+
+/*for MAINTAINACE*/
+u-4{
+
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+	
+} 
+
+
+u-4 li
+{
+	display: inline-block;
+}
+
+
+
+u-4 li a{
+
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 2px solid #fff;
+	background-color: transparent;
+	transition:1s ease;	
+
+	position: absolute;
+	top: 40%;
+	left: 66%;
+	height: 60px;
+
+	transform: translate(-50%,-50%);
+
+}
+
+ u-4 li a:hover{
+	background-color:#fff;
+	color:#000;
+}
+
+
+
+
+/*for E-BILL*/
+u-5{
+
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+	
+} 
+
+
+u-5 li
+{
+	display: inline-block;
+}
+
+
+
+u-5 li a{
+
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 2px solid #fff;
+	background-color: transparent;
+	transition:1s ease;	
+
+	position: absolute;
+	top: 60%;
+	left: 26%;
+	height: 60px;
+
+	transform: translate(-50%,-50%);
+
+}
+
+ u-5 li a:hover{
+	background-color:#fff;
+	color:#000;
+}
+
+
+
+
+/*for WATER BILL*/
+u-6{
+
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+	
+} 
+
+
+u-6 li
+{
+	display: inline-block;
+}
+
+
+
+u-6 li a{
+
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 2px solid #fff;
+	background-color: transparent;
+	transition:1s ease;	
+
+	position: absolute;
+	top: 60%;
+	left: 66%;
+	height: 60px;
+
+	transform: translate(-50%,-50%);
+
+}
+
+ u-6 li a:hover{
+	background-color:#fff;
+	color:#000;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*print*/
+/*for WATER BILL*/
+u-7{
+
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+	
+} 
+
+
+u-7 li
+{
+	display: inline-block;
+}
+
+
+
+u-7 li a{
+
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 2px solid #fff;
+	background-color: transparent;
+	transition:1s ease;	
+
+	position: absolute;
+	top: 80%;
+	left: 48%;
+	height: 60px;
+
+	transform: translate(-50%,-50%);
+
+}
+
+ u-7 li a:hover{
+	background-color:#fff;
+	color:#000;
+}
+
+
+
+
+
+/*BACK  BUTTON*/
+/* for back button*/
+u li-1 a{
+
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 2px solid #fff;
+
+	transition:1s ease;	
+
+	position: absolute;
+	top: 6%;
+	left: 6%;
+	transform: translate(-50%,-50%);
+
+}
+
+
+
+ u li-1 a:hover{
+	background-color:#fff;
+	color:#000;
+}
+
+
+
+
+
+
+
+
+
+

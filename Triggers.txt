@@ -1,0 +1,11 @@
+maintenance
+INSERT INTO logs values(NEW.block,NEW.houseno,NEW.housetype,NEW.amount,'Inserted',NOW())
+
+
+
+INSERT INTO logs_admin values(NEW.firstname,NEW.lastname,NEW.phonenumber,NEW.dob,NEW.mailid,NEW.adminname,NEW.password,'Inserted',NOW())
+
+
+INSERT INTO logs_admin values(OLD.firstname,OLD.lastname,OLD.phonenumber,OLD.dob,OLD.mailid,OLD.adminname,OLD.password,'deleted',NOW())
+
+INSERT INTO logs_admin values(NEW.firstname,NEW.lastname,NEW.phonenumber,NEW.dob,NEW.mailid,NEW.adminname,NEW.password,'updated',NOW())

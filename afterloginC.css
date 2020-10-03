@@ -1,0 +1,173 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:	Century Gothic;
+}
+
+
+
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(s3.jpg);
+	height: 100vh;
+	background-size:cover;
+	background-position: center; 
+}
+
+
+/*for group setup*/
+.myacc{
+width: 750px;
+height: 400px;
+background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)) ;
+color: #fff;
+left: 50%;
+right: 60%;
+
+
+
+text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+ 	
+
+	position: absolute;
+	top: 50%; /*position*/
+	left: 45%;/*postion*/
+	transform: translate(-50%,-50%);
+
+}
+
+
+
+
+u-1{
+
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+	
+} 
+/*----- same for all------------*/
+
+
+
+
+
+
+u-1 li
+{
+	display: inline-block;
+}
+
+
+
+u-1 li a{
+
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 2px solid #fff;
+	background-color: transparent;
+	transition:1s ease;	
+
+	position: absolute;
+	top: 30%;
+	left: 25%;
+	height: 60px;
+
+	transform: translate(-50%,-50%);
+
+}
+
+ u-1 li a:hover{
+	background-color:#fff;
+	color:#000;
+}
+
+
+
+
+
+
+/*1*/
+
+
+
+u-1 li-1
+{
+	display: inline-block;
+}
+
+
+
+u-1 li-1 a{
+
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 2px solid #fff;
+	background-color: transparent;
+	transition:1s ease;	
+
+	position: absolute;
+	top: 30%;
+	left: 70%;
+	height: 60px;
+
+	transform: translate(-50%,-50%);
+
+}
+
+ u-1 li-1 a:hover{
+	background-color:#fff;
+	color:#000;
+}
+
+
+
+
+
+
+
+
+
+/*2*/
+u-1 li-2
+{
+	display: inline-block;
+}
+
+
+
+u-1 li-2 a{
+
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 2px solid #fff;
+	background-color: transparent;
+	transition:1s ease;	
+
+	position: absolute;
+	top: 51%;
+	left: 45%;
+	height: 60px;
+
+	transform: translate(-50%,-50%);
+
+}
+
+ u-1 li-2 a:hover{
+	background-color:#fff;
+	color:#000;
+}
+
+
+
+
+
+
+
+
+		
